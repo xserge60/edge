@@ -5,7 +5,7 @@
     формирование HTML-файлов по ссылкам в edge Bookmarks
 """
 # pylint: disable=W,C
-__version__ = "0.1.9"
+__version__ = "0.1.10"
 
 import os
 import sys
@@ -23,7 +23,7 @@ import json
 
 sys.path.insert(1, os.path.join(sys.path[0], 'D:\\ownCloud\\test\\Lib\\'))
 
-# from python_hosts import Hosts, HostsEntry
+from python_hosts import Hosts, HostsEntry
 # from python_hosts.exception import InvalidComment
 
 from tools import *
