@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css?family=Kalam');
+
+body {
+/*  background-color: #f2f2f2; */
+  font-family: Arial;
+  font-weight: 300;
+  font-size: 16px;
+  color: #555;
+  word-break: break-word;
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Arial;
+  font-weight: 300;
+  color: #333;
+}
+
+td {
+  padding: 3px;
+  padding-left: 10px;
+}
+
+p {
+  line-height: 28px;
+  margin-bottom: 25px;
+}
+
+.txt p {
+  line-height: 20px;
+  margin-bottom: 10px;
+  font-size: 16px;
+   text-align: left;
+}
+
+.centered {
+  text-align: center;
+}
+
+a {
+  color: #888;
+  font-weight: 600;
+}
+a:hover, a:focus {
+  color: #f85c37;
+  text-decoration: none;
+  outline: 0;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+.navbar {
+  font-weight: 400;
+  font-size: 14px;
+  padding-top: 5px;
+  padding-bottom: 20px;
+}
+
+.navbar-brand {
+  font-weight: 200;
+  font-size: 14px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  vertical-align:text-top;
+  line-height: 50%;
+}
+
+.navbar-inverse {
+  background: SteelBlue;
+  border-color: SteelBlue;
+}
+
+.navbar .brand, .navbar .nav > li > a:hover {
+  color: #7b7b7b;
+  background-color: #fff;
+  text-decoration: none;
+  outline: 0;
+}
+
+.navbar .brand, .navbar .nav > li > a:focus {
+  color: #fff;
+  background-color: red
+  text-decoration: none;
+  outline: 0;
+}
+
+
+
+.navbar-inverse .navbar-nav > .active > a {
+  background-color: Turquoise;
+}
+.navbar-inverse .navbar-nav > li > a {
+    color: #fff;
+}
+.navbar-inverse .navbar-brand {
+  color: #fff;
+  font-weight: bolder;
+  font-size: 22px;
+  letter-spacing: 1px;
+}
+
+.headerwrap {
+  background-color: #dddddd;
+  padding-top: 28px;
+  text-align: center;
+  background-attachment: relative;
+  background-position: center center;
+  min-height: 80px;
+  width: 100%;
+  background-size: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.headerwrap h1 {
+  margin-top: 100px;
+  color: white;
+  font-size: 50px;
+  font-weight: 300;
+  letter-spacing: 3px;
+}
+.headerwrap h2 {
+  color: red;
+  font-size: 40px;
+  letter-spacing: 2px;
+  /*text-transform: uppercase;*/
+}
+.headerwrap h3 {
+  font-size: 30px;
+  letter-spacing: 2px;
+  /*text-transform: uppercase;*/
+}
+
+.w {
+  padding-top: 35px;
+}
+
+.w h4 {
+  font-size: 25px;
+}
+
+#dg {
+  background: #e0e0e0;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  text-align: center;
+}
+
+#dg h4 {
+  font-size: 40px;
+}
+
+.tilt {
+  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+
+.tilt:hover {
+  -webkit-transform: rotate(-10deg);
+     -moz-transform: rotate(-10deg);
+       -o-transform: rotate(-10deg);
+      -ms-transform: rotate(-10deg);
+          transform: rotate(-10deg);
+}
+
+.wb {
+  padding-top: 35px;
+  margin-bottom:
+}
+
+.wb h4 {
+  font-size: 35px;
+}
+
+#lg {
+  background: #ebebeb;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  text-align: center;
+}
+
+#lg h4 {
+  font-size: 45px;
+}
+
+#r {
+  background: #ff7878;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  text-align: center;
+}
+
+#r h4 {
+  color: white;
+  font-size: 25px;
+}
+
+#r p {
+  color: white;
+}
+
+#f i {
+  color: #bdbdbd;
+  font-size: 30px;
+  letter-spacing: 20px
+}
+
+#f i:hover {
+  color: #ff7878;
+}
+
+@font-face {
+font-family: "segoesc";
+src: url("../fonts/segoesc.ttf") format("truetype");
+font-style: normal;
+font-weight: normal;
+}
+
+.blink {
+  animation: blinker 1s step-start infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+.quest td,th {width:"50%";}
+
+span[data-toggle] {
+  color:#338;
+}
+
+span[data-toggle]:hover {
+  font-weight: bold;
+}
+.thumb img {
+    -webkit-filter: grayscale(0);
+    filter: none;
+    border-radius: 5px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 5px;
+}
+
+.thumb img:hover {
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+}
+
+.thumb {
+    padding: 5px;
+}
+
+.img-wrap {
+  position:  relative;
+}
+
+.img-wrap h1 {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.photo {
+    display: inline-block; /* Строчно-блочный элемент */
+    position: relative; /* Относительное позиционирование */
+}
+
+.photo:hover::after {
+    content: attr(data-title); /* Выводим текст */
+    position: absolute; /* Абсолютное позиционирование */
+    left: 0; right: 0px; bottom: 0px; /* Положение подсказки */
+    z-index: 1; /* Отображаем подсказку поверх других элементов */
+    background: rgba(255,231,115,0.5); /* Полупрозрачный цвет фона */
+    color: #00f; /* Цвет текста */
+    text-align: center; /* Выравнивание текста по центру */
+    font-family: Arial, sans-serif; /* Гарнитура шрифта */
+    font-size: 11px; /* Размер текста подсказки */
+    padding: 2px 2px; /* Поля */
+    border: 1px solid #aaa; /* Параметры рамки */
+}
